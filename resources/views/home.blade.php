@@ -9,11 +9,11 @@
             <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">{{ $movie->title}}</h4>
-                    <h6 class="card-subtitle">{{ substr($movie->description, 25, 55) }}</h5>
+                    <h6 class="card-subtitle">{{ substr($movie->original_title, 25, 55) }}</h5>
                     <div class="card-text">
-                        <p>{{ $movie->description}}</p>
+                        <p>{{ $movie->nationality}}</p>
                         {{-- usate <address> --}}
-                        <pre>{{ $movie->author}}</pre>
+                        <pre>{{ $movie->vote}}</pre>
                     </div>    
                 </div>
             </div>
